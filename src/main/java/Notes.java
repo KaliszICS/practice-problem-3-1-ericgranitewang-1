@@ -18,6 +18,6 @@ class Notes {
 	    //if a base case runs, the recursive call is unreachable
 		
 	    //recursive call
-		  return fib(num - 1) + fib(num - 2); //recursive call that calls itself
+		return fib(num - 1) + fib(num - 2); //recursive call that calls itself
 	}
 }
